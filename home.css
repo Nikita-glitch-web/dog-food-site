@@ -5,8 +5,8 @@ body {
     
 }
 
-.yellow.box {
-    width: 1000px;
+.yellow-box {
+    width: 100%;
     height: 800px;
     background: #FED700;
 }
