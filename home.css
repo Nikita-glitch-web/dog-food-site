@@ -10,3 +10,12 @@ body {
     height: 800px;
     background: #FED700;
 }
+.header {
+    display: flex;
+}
+.black-text {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+font-size: 28px;
+line-height: 33px;
+}
