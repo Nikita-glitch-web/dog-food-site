@@ -92,3 +92,7 @@ font-weight: 300;
 font-size: 17px;
 line-height: 20px;
 }
+
+.left-part {
+    margin-left: 200px;
+}
