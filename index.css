@@ -55,3 +55,40 @@ padding-right: 100px;
     height: 18px;
     padding-left: 30px; 
 }
+
+.title {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 52px;
+}
+
+.text {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;    
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+}
+
+.white-button {
+background: #FFFFFF;
+box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.02), 0px 2px 16px rgba(96, 97, 112, 0.16);
+border-radius: 60px;
+width: 160px;
+height: 60px;
+border: 1px white solid;
+padding-right: 60px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;    
+font-weight: 300;
+font-size: 17px;
+line-height: 20px;
+}
