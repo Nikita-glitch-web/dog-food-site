@@ -93,6 +93,10 @@ font-size: 17px;
 line-height: 20px;
 }
 
-.left-part {
-    margin-left: 200px;
+
+
+.main-content-of-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
 }
