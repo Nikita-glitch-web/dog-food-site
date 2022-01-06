@@ -106,7 +106,7 @@ line-height: 20px;
     height: 45px;
 }
 
-.block-with-img {
+.catalog-menu {
     width: 1000px;
     height: 200px;
     background: white;
@@ -115,7 +115,31 @@ line-height: 20px;
     position: relative;
     bottom: 100px;
     margin: 0 auto;
+    padding-top: 20px; 
+}
+
+.text-for-img {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+}
+
+.block-with-img {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 20px;
+}
+
+.orange-box {
+    width: 1000px;
+    height: 200px;
+    background: #FF8F27;
+    box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+    border-radius: 20px;
+    margin: 0 auto;
 }
