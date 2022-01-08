@@ -174,3 +174,9 @@ padding-left: 20px;
 .dog-basket-img {
     padding-top: 10px;
 }
+
+.box-with-hits {
+    margin: 0 auto;
+    width: 1000px;
+    height: 350px;
+}
