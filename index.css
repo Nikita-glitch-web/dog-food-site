@@ -288,8 +288,20 @@ font-style: normal;
 font-weight: 800;
 font-size: 16px;
 line-height: 20px;
+padding-left: 5px;
+color: white ;
 background: #03A9F4;
 border-radius: 20px;
 width: 84px;
 height: 24px;
 }
+
+.price-after-sale-for-meat {
+    color: black;
+}
+
+
+.hits-content {
+    display: flex;
+    justify-content: space-between;
+} 
