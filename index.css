@@ -181,7 +181,97 @@ padding-left: 20px;
     height: 350px;
 }
 
-.hits-switcher {
+.hits-swithcer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.right-img {
+    padding-top: 40px;
+}
+
+.hits {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+
+color: #1A1A1A;
+} 
+
+.left-arrow {
+    padding-right: 20px;
+}
+
+.sale-procent {
+    width: 42px;
+    height: 20px;
+    background: #F44336;
+border-radius: 20px;
+font-size: 16px;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+.price-before-sale {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+text-decoration-line: line-through;
+color: #1A1A1A;
+}
+.price-after-sale {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+color: #F44336;
+}
+
+.quantity {
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: #7B8E98;
+}
+
+.about-product {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #1A1A1A;
+}
+
+
+.yellow-button {
+    background: #FED700;
+border-radius: 55px;
+width: 115px;
+height: 40px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #1A1A1A;
+border: 1px solid #FED700;
 }
