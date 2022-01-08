@@ -279,3 +279,17 @@ border: 1px solid #FED700;
 .price-after-sale-for-oil {
     color: black;
 }
+
+.new-item {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+background: #03A9F4;
+border-radius: 20px;
+width: 84px;
+height: 24px;
+}
