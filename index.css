@@ -127,12 +127,14 @@ font-weight: bold;
 font-size: 16px;
 line-height: 20px;
 text-align: center;
+color: #1A1A1A;
 
 }
 
 .block-with-img {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .orange-box {
@@ -277,7 +279,8 @@ border: 1px solid #FED700;
 }
 
 .price-after-sale-for-oil {
-    color: black;
+    color: black; 
+    padding-top: 20px;
 }
 
 .new-item {
@@ -298,6 +301,7 @@ height: 24px;
 
 .price-after-sale-for-meat {
     color: black;
+    padding-top: 20px;
 }
 
 
@@ -305,3 +309,20 @@ height: 24px;
     display: flex;
     justify-content: space-between;
 } 
+
+.about-product-oil {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.oil-img {
+    padding-top: 50px;
+}
+
+.yellow-button-oil {
+    margin-top: 11px;
+}
+
+.yellow-button-dog-cake {
+    margin-top: 15px;
+}
