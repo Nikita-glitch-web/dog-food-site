@@ -273,3 +273,62 @@ font-size: 16px;
 line-height: 20px;
 color: #1A1A1A;
 }
+
+.yellow-button {
+background: #FED700;
+border-radius: 55px;
+width: 115px;
+height: 40px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-size: 16px;
+color: #1A1A1A;
+font-weight: 600;
+border: 1px solid #FED700;
+}
+
+.price-after-sale-stock-price {
+    color: black;
+}
+
+.sale-procent-new-item {
+    width: 82px;
+    height: 24px;
+    background: #03A9F4;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-left: 9px;
+    padding-top: 5px;
+    }
+
+    .block-with-hits-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .oil-img {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .product-text-oil {
+        padding-bottom: 25px;
+    }
+
+    .product-text-dog-cake {
+        padding-bottom: 25px;
+    }
+
+    .dog-food {
+        padding-bottom: 20px;
+    }
+
+    .product-text-dog-food {
+        padding-bottom: 10px;
+    }
