@@ -307,50 +307,102 @@ border: 1px solid #FED700;
     padding-top: 5px;
     }
 
-    .block-with-hits-content {
+.block-with-hits-content {
         display: flex;
         justify-content: space-between;
     }
 
-    .oil-img {
+.oil-img {
         padding-top: 50px;
         padding-bottom: 30px;
     }
 
-    .product-text-oil {
+.product-text-oil {
         padding-bottom: 25px;
     }
 
-    .product-text-dog-cake {
+.product-text-dog-cake {
         padding-bottom: 25px;
     }
 
-    .dog-food {
+.dog-food {
         padding-bottom: 20px;
     }
 
-    .product-text-dog-food {
+.product-text-dog-food {
         padding-bottom: 10px;
     }
 
-    .left-box {
+.left-box {
         background: #D8A217;
         width: 490px;
         height: 220px;
         border-radius: 20px;
+        position: relative;
+        overflow: hidden;
     }
 
-    .right-box {
+.right-box {
         background: #24B5BE;
         width: 490px;
         height: 220px;
         border-radius: 20px;
     }
 
-    .other-product-wrapper {
+.other-product-wrapper {
         display: flex;
         max-width: 1000px;
         margin: 0 auto;
         justify-content: space-between;
         padding-top: 50px;
     }
+
+.dog-bowl {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        z-index: 1;
+    }
+
+
+.left-box::after {
+        content: '';
+        width: 340px;
+        height: 330px;
+        background: #FED700;
+        top: 0;
+        right: -60px;
+        position: absolute;
+        border-radius: 190px;
+        z-index: 0;
+        right: -110px;
+    }
+
+.head-title {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+font-weight: 800;
+font-size: 32px;
+color: #FFFFFF;
+padding-bottom: 0px;
+    }
+
+
+.sub-text {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    }
+
+
+.sub-title {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-weight: 800;
+font-size: 28px;
+color: #FFFFFF;
+}
