@@ -386,6 +386,7 @@ font-weight: 800;
 font-size: 32px;
 color: #FFFFFF;
 padding-bottom: 0px;
+padding-left: 20px;
     }
 
 
@@ -395,6 +396,7 @@ padding-bottom: 0px;
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
     color: #FFFFFF;
+    padding-left: 20px;
     }
 
 
@@ -405,4 +407,5 @@ font-family: 'Varela Round', sans-serif;
 font-weight: 800;
 font-size: 28px;
 color: #FFFFFF;
+padding-left: 20px;
 }
