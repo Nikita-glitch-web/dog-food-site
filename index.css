@@ -1,435 +1,287 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
 body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Nunito' sans-serif; 
+  min-height: 100vh;
 }
 
-.header-box {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.hits {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hits-nav-text {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: #1a1a1a;
+}
+
+.hits-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-with-arrows {
+  padding-top: 32px;
+}
+
+.right-arrow {
+  padding-left: 10px;
+}
+
+.price-before-sale {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration-line: line-through;
+  color: #1a1a1a;
+}
+
+.sale-procent {
+  width: 45px;
+  height: 24px;
+  background: #f44336;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 6px;
+}
+
+.price-after-sale {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f44336;
+}
+
+.quantity {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #7b8e98;
+}
+
+.product-text {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a1a1a;
+}
+
+.yellow-button {
+  background: #fed700;
+  border-radius: 55px;
+  width: 115px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+  font-weight: 600;
+  border: 1px solid #fed700;
+}
+
+.price-after-sale-stock-price {
+  color: black;
+}
+
+.sale-procent-new-item {
+  width: 82px;
+  height: 24px;
+  background: #03a9f4;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 9px;
+  padding-top: 5px;
+}
+
+.block-with-hits-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.oil-img {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.product-text-oil {
+  padding-bottom: 25px;
+}
+
+.product-text-dog-cake {
+  padding-bottom: 25px;
+}
+
+.dog-food {
+  padding-bottom: 20px;
+}
+
+.product-text-dog-food {
+  padding-bottom: 10px;
+}
+
+
+.header {
     width: 100%;
-    min-height: 800px;
-    background: #FED700;
-
+    min-height: 100px;
+    background: #fed700;
 }
 
-.header-dog-img {
-    width: 70px;
-    height: 60px;
+.header-title {
+font-family: 'Nunito' sans-serif;
+font-size: 25px;
+line-height: 33px; 
+padding-top: 8px;
 }
 
-.header-text {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
- font-weight: 1000;
- font-size: 28px;
+.img-in-header {
+    width: 50px;
+    height: 50px; 
+    margin-right: 40px;
+}
+
+
+.logo {
+    display: flex;
+    margin-left: 220px;
 }
 
 .search-row {
+width: 500px;
+height: 50px;
 background: #FFFFFF;
 border-radius: 24px;
-width: 500px;
-height: 50px; 
-color: #7B8E98;
+border: 1px white solid;
+font-family: 'Nunito' sans-serif;
 font-size: 16px;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-border: 1px solid white;
-padding-left: 15px;
-margin-top: 15px;
+color: #7B8E98;
+padding-left: 10px;
 }
 
-.heart {
-    width: 18px;
-    height: 18px;
-    padding-right: 25px;    
+.search {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    margin-top: 50px;
 }
 
-.shopping {
-    width: 18px;
-    height: 18px;
-    padding-right: 25px;
+.images-in-header {
+    width: 20px;
+    height: 20px;
 }
 
-.little-dog {
-    width: 18px;
-    height: 18px;
-}
-
-.part-with-dog-face {
+.container {
     display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
 }
 
-.header-text {
-    padding-left: 20px;
+
+.icons {
+    margin-right: 300px;
+    padding-top: 10px;
+} 
+
+.images-in-header:first-child {
+    margin-right: 25px;
 }
 
-.header-dog-img {
-    padding-top: 15px;
+.images-in-header:last-child {
+    margin-left: 25px;
 }
 
-.part-with-little-menu {
-    padding-top: 35px;
+.page-content {
+    width: 100%;
+    min-height: 744px;
+    background: #fed700;
 }
 
-.header {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.title {
-font-family: 'Nunito', sans-serif;
-font-weight: 1000;
+.content-title {
+font-family: 'Nunito' sans-serif;
+font-weight: 800;
 font-size: 48px;
 color: #1A1A1A;
 }
 
 .sub-text {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
+font-family: 'Nunito' sans-serif;
 font-weight: 300;
 font-size: 24px;
+line-height: 28px;
 color: #1A1A1A;
+margin-top: 20px;
 }
 
-.white-button {
+.white-btn {
 background: #FFFFFF;
 box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.02), 0px 2px 16px rgba(96, 97, 112, 0.16);
 border-radius: 60px;
-width: 160px;
+width: 157px;
 height: 56px;
 border: 1px white solid;
-font-family: 'Nunito', sans-serif;
-font-size: 20px;
+font-family: 'Nunito' sans-serif;
 font-weight: 800;
+font-size: 17px;
 color: #1A1A1A;
+margin-top: 42px;
 }
 
-
-
-.content-in-yellow-box {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 60px;
-}
-
-.right-part {
-    padding-top: 100px;
-}
-
-.menu-box {
-    max-width: 1000px;
-    width: 100%;
-    min-height: 130px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    padding-top: 30px;
-} 
-
-.img-in-menu {
-    width: 40px;
-    height: 40px;
-}
-
-
-.block-with-text-and-img {
-    text-align: center;
-}
-
-
-.text-for-img {
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-size: 16px;
-text-align: center;
-color: #1A1A1A;
-font-weight: 700;
-}
-
-.orange-gift-box {
-    max-width: 1000px;
-    width: 100%;
-    max-height: 260px;
-    height: 100%;
-    border-radius: 20px;
-    margin: 0 auto;
-    background: #FF8F27;
-    display: flex;
-    justify-content: space-evenly;
-}  
-
-.title {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-size: 47px;
-color: #FFFFFF; 
-padding-left: 50px;
-
-}  
-
-.subtitle {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-size: 28px;
-color: #FFFFFF;
-padding-left: 50px;
-}
-
-
-.dog-basket-img {
- padding-top: 10px;
-}
-
-
-.hits {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.hits-nav-text {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-weight: 800;
-font-size: 28px;
-color: #1A1A1A;
-}
-
-.hits-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.box-with-arrows {
-    padding-top: 32px;
-}
-
-.right-arrow {
+.arrow-in-white-button {
     padding-left: 10px;
 }
 
-.price-before-sale {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-weight: 600;
-font-size: 12px;
-text-decoration-line: line-through;
-color: #1A1A1A;
-}
-
-.sale-procent {
-width: 45px;
-height: 24px;
-background: #F44336;
-border-radius: 20px;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-weight: 800;
-font-size: 16px;
-color: #FFFFFF;
-padding-left: 6px;
-}
-
-.price-after-sale {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-color: #F44336;
-}
-
-
-.quantity {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-color: #7B8E98;
-}
-
-
-.product-text {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Varela Round', sans-serif;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-color: #1A1A1A;
-}
-
-.yellow-button {
-background: #FED700;
-border-radius: 55px;
-width: 115px;
-height: 40px;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-size: 16px;
-color: #1A1A1A;
-font-weight: 600;
-border: 1px solid #FED700;
-}
-
-.price-after-sale-stock-price {
-    color: black;
-}
-
-.sale-procent-new-item {
-    width: 82px;
-    height: 24px;
-    background: #03A9F4;
-    border-radius: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #FFFFFF;
-    padding-left: 9px;
-    padding-top: 5px;
-    }
-
-.block-with-hits-content {
-        display: flex;
-        justify-content: space-between;
-    }
-
-.oil-img {
-        padding-top: 50px;
-        padding-bottom: 30px;
-    }
-
-.product-text-oil {
-        padding-bottom: 25px;
-    }
-
-.product-text-dog-cake {
-        padding-bottom: 25px;
-    }
-
-.dog-food {
-        padding-bottom: 20px;
-    }
-
-.product-text-dog-food {
-        padding-bottom: 10px;
-    }
-
-.left-box {
-        background: #D8A217;
-        width: 490px;
-        height: 220px;
-        border-radius: 20px;
-        position: relative;
-        overflow: hidden;
-    }
-
-.right-box {
-        background: #24B5BE;
-        width: 490px;
-        height: 220px;
-        border-radius: 20px;
-        position: relative;
-        overflow: hidden;
-    }
-
-
-    .right-box::after {
-        content: '';
-        width: 340px;
-        height: 330px;
-        background: lightblue;
-        top: 0;
-        right: -60px;
-        position: absolute;
-        border-radius: 190px;
-        z-index: 0;
-        right: -110px;
-    }
-
-.other-product-wrapper {
-        display: flex;
-        max-width: 1000px;
-        margin: 0 auto;
-        justify-content: space-between;
-        padding-top: 50px;
-    }
-
-.dog-bowl {
-        position: absolute;
-        right: 0px;
-        top: 0;
-        z-index: 1;
-    }
-
-
-.left-box::after {
-        content: '';
-        width: 340px;
-        height: 330px;
-        background: #FED700;
-        top: 0;
-        right: -60px;
-        position: absolute;
-        border-radius: 190px;
-        z-index: 0;
-        right: -110px;
-    }
-
-.head-title {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Varela Round', sans-serif;
-font-weight: 800;
-font-size: 32px;
-color: #FFFFFF;
-padding-bottom: 0px;
-padding-left: 20px;
-    }
-
-
-.sub-text {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
-    color: #FFFFFF;
-    padding-left: 20px;
-    }
-
-
-.sub-title {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-weight: 800;
-font-size: 28px;
-color: #FFFFFF;
-padding-left: 20px;
-}
-
-
-.oil-bottels {
-    position: absolute;
-    right: 0px;
-    top: 0;
-    z-index: 1;
+.wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
 }
