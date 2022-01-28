@@ -415,6 +415,10 @@ p {
   display: flex;
 }
 
+.product-text-goodies {
+  padding-top: 10px;
+}
+
 .left-orange-box-title {
   font-family: "Nunito" sans-serif;
   font-weight: 800;
@@ -457,4 +461,29 @@ p {
 .left-orange-box-text-wrapper {
   padding-left: 40px;
   padding-top: 30px;
+}
+
+.hits-nav-goodies-nav {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.goodies-wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-after-sale-goodies {
+  color: black;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.product-text-goodies-last-item {
+  padding-bottom: 20px;
 }
