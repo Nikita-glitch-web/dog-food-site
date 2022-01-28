@@ -390,7 +390,7 @@ p {
   margin-top: 15px;
 }
 
-.box-with-add-wrapper {
+.box-with-add {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
@@ -399,7 +399,7 @@ p {
 }
 
 .left-orange-box {
-  width: 493px;
+  width: 488px;
   height: 220px;
   background: #d8a217;
   border-radius: 20px;
@@ -408,11 +408,11 @@ p {
 }
 
 .right-blue-box {
-  width: 493px;
+  width: 488px;
   height: 220px;
-  background: #d8a217;
   border-radius: 20px;
   background: #24b5be;
+  display: flex;
 }
 
 .left-orange-box-title {
@@ -428,6 +428,21 @@ p {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+  color: #ffffff;
+}
+
+.right-blue-box-title {
+  font-family: "Nunito" sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 90%;
+  color: #ffffff;
+}
+
+.right-blue-box-sub-text {
+  font-family: "Nunito" sans-serif;
+  font-weight: 600;
+  font-size: 20px;
   color: #ffffff;
 }
 
