@@ -56,9 +56,7 @@ p {
 }
 
 .price-before-sale {
-  font-family: "Montserrat", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Varela Round", sans-serif;
   font-weight: 600;
   font-size: 12px;
   text-decoration-line: line-through;
@@ -70,9 +68,7 @@ p {
   height: 26px;
   background: #f44336;
   border-radius: 20px;
-  font-family: "Montserrat", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Varela Round", sans-serif;
   font-weight: 800;
   font-size: 16px;
   color: #ffffff;
@@ -80,9 +76,7 @@ p {
 }
 
 .price-after-sale {
-  font-family: "Montserrat", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Varela Round", sans-serif;
   font-weight: 800;
   font-size: 20px;
   line-height: 24px;
@@ -90,9 +84,7 @@ p {
 }
 
 .quantity {
-  font-family: "Montserrat", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Varela Round", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -100,9 +92,7 @@ p {
 }
 
 .product-text {
-  font-family: "Montserrat", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Varela Round", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -114,9 +104,7 @@ p {
   border-radius: 55px;
   width: 115px;
   height: 40px;
-  font-family: "Montserrat", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Varela Round", sans-serif;
   font-size: 16px;
   color: #1a1a1a;
   font-weight: 600;
@@ -132,9 +120,7 @@ p {
   height: 24px;
   background: #03a9f4;
   border-radius: 20px;
-  font-family: "Montserrat", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Varela Round", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #ffffff;
@@ -396,6 +382,7 @@ p {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 .left-orange-box {
@@ -405,6 +392,7 @@ p {
   border-radius: 20px;
   display: flex;
   justify-content: space-around;
+  overflow: hidden;
 }
 
 .right-blue-box {
@@ -413,6 +401,8 @@ p {
   border-radius: 20px;
   background: #24b5be;
   display: flex;
+  position: relative;
+  overflow: hidden;
 }
 
 .product-text-goodies {
@@ -467,6 +457,7 @@ p {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .goodies-wrapper {
@@ -478,6 +469,19 @@ p {
   justify-content: space-between;
 }
 
+.yellow-button-third-toy-img {
+  background: #fed700;
+  border-radius: 55px;
+  width: 115px;
+  height: 40px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+  font-weight: 800;
+  border: 1px solid #fed700;
+  margin-top: 40px;
+}
+
 .price-after-sale-goodies {
   color: black;
   padding-top: 35px;
@@ -486,4 +490,44 @@ p {
 
 .product-text-goodies-last-item {
   padding-bottom: 20px;
+}
+
+.hits-nav-toys-nav {
+  padding-top: 50px;
+}
+
+.product-text-third-toy-img {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a1a1a;
+  padding-top: 11px;
+}
+
+.right-box-text-wrapper {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.right-blue-box-img {
+  position: absolute;
+  right: 0;
+}
+
+.price-before-sale-third-toy {
+  margin-top: -6px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration-line: line-through;
+  color: #1a1a1a;
+}
+
+.yellow-button-first-item-last-toy {
+  margin-top: 0px;
+}
+
+.quantity-third-toy {
+  padding-top: 8px;
 }
