@@ -617,3 +617,64 @@ p {
   padding-top: 48px;
   padding-left: 42px;
 }
+
+.sale-offer-wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.sale-offer-text {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1a1a1a;
+  padding-top: 16px;
+}
+
+.sale-offer-box {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-box {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.news-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.date-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7b8e98;
+}
+
+.row-with-date {
+  display: flex;
+  padding-top: 18px;
+}
+
+.calendar-img {
+  width: 10px;
+  height: 8px;
+  border-radius: 3px;
+  border: 1px grey solid;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+
+.news-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a1a1a;
+  padding-top: 10px;
+}
