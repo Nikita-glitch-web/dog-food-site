@@ -777,3 +777,16 @@ p {
   padding-top: 10px;
   padding-bottom: 12px;
 }
+
+.reviews-title-right-part {
+  padding-right: 110px;
+  padding-bottom: 23px;
+}
+
+.box-with-bottom-images {
+  padding-top: 28px;
+}
+
+.little-dog-picture {
+  padding-right: 15px;
+}
