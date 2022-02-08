@@ -64,13 +64,13 @@ p {
 }
 
 .sale-procent {
-  width: 48px;
-  height: 26px;
+  width: 39px;
+  height: 20px;
   background: #f44336;
   border-radius: 20px;
   font-family: "Nunito", sans-serif;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 13px;
   color: #ffffff;
   padding-left: 4px;
 }
@@ -789,4 +789,50 @@ p {
 
 .little-dog-picture {
   padding-right: 15px;
+}
+
+.thihgs-that-you-watch-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.things-that-you-watch-price {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1a1a1a;
+  padding-bottom: 8px;
+}
+
+.product-that-you-watch-info {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a1a1a;
+  padding-top: 10px;
+}
+
+.things-that-you-watch-content-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale-price {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: line-through;
+  color: #1a1a1a;
+}
+
+.things-that-you-watch-price-red-word {
+  color: #f44336;
+}
+
+.product-that-you-watch-info-dificult-part {
+  padding-top: 6px;
 }
